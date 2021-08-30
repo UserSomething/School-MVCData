@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Person finder</h2>
+
+<form>
+    <label for="filter">Filter by person name or city.</label>
+    <br />
+    <input type="text" id="filter" name="filterPersonOrCity" />
+    <input type="submit" value="Submit" />
+</form>
+
+<br />
+
+<form>
+    <p>Add a person.</p>
+
+    <label for="personName">Name:</label>
+    <input type="text" id="personName" name="personName" />
+
+    <br />
+
+    <label for="personPhoneNumber">Phone number:</label>
+    <input type="text" id="personPhoneNumber" name="personPhoneNumber" />
+
+    <br />
+
+    <label for="personCity">City:</label>
+    <input type="text" id="personCity" name="personCity" />
+
+    <br />
+
+    <input type="submit" value="Submit" />
+</form>
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Phone number</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*@foreach ()
+        {
+
+        }*@
+    </tbody>
+</table>
